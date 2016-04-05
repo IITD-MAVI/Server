@@ -1,0 +1,7 @@
+<aspectj>
+<aspects>
+<aspect name="iitd.assistech.mavi.LocationIntegrationTest_Roo_Configurable"/>
+<aspect name="iitd.assistech.mavi.LocationDataOnDemand_Roo_Configurable"/>
+</aspects>
+</aspectj>
+

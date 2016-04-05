@@ -1,0 +1,8 @@
+<aspectj>
+<aspects>
+<aspect name="iitd.assistech.mavi.domain.Location_Roo_ToString"/>
+<aspect name="iitd.assistech.mavi.domain.Location_Roo_JavaBean"/>
+<aspect name="iitd.assistech.mavi.domain.Location_Roo_Json"/>
+</aspects>
+</aspectj>
+
