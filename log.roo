@@ -23,3 +23,14 @@ focus --class ~.domain.SignBoard
 json add
 exit
 // Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-04-05 21:52:20
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-04-08 05:31:06
+focus --class ~.domain.SignBoard
+// [failed] field reference --fieldName location --type ~.domain.Location
+field number --fieldName latitude --type double 
+field number --fieldName longitude --type double 
+field boolean --fieldName bilingual
+field bool --fieldName mounted
+field string --fieldName engContent
+field string --fieldName hinContent
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-04-08 06:48:35

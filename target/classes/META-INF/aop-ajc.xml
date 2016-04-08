@@ -4,6 +4,8 @@
 <aspect name="iitd.assistech.mavi.domain.Location_Roo_ToString"/>
 <aspect name="iitd.assistech.mavi.domain.Location_Roo_JavaBean"/>
 <aspect name="iitd.assistech.mavi.domain.Location_Roo_Json"/>
+<aspect name="iitd.assistech.mavi.domain.SignBoard_Roo_JavaBean"/>
+<aspect name="iitd.assistech.mavi.domain.SignBoard_Roo_ToString"/>
 </aspects>
 </aspectj>
 
