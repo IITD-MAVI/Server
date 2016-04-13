@@ -23,20 +23,12 @@ privileged aspect SignBoard_Roo_JavaBean {
         this.longitude = longitude;
     }
     
-    public Boolean SignBoard.getBilingual() {
+    public boolean SignBoard.isBilingual() {
         return this.bilingual;
     }
     
-    public void SignBoard.setBilingual(Boolean bilingual) {
+    public void SignBoard.setBilingual(boolean bilingual) {
         this.bilingual = bilingual;
-    }
-    
-    public Boolean SignBoard.getMounted() {
-        return this.mounted;
-    }
-    
-    public void SignBoard.setMounted(Boolean mounted) {
-        this.mounted = mounted;
     }
     
     public String SignBoard.getEngContent() {
@@ -45,14 +37,6 @@ privileged aspect SignBoard_Roo_JavaBean {
     
     public void SignBoard.setEngContent(String engContent) {
         this.engContent = engContent;
-    }
-    
-    public String SignBoard.getHinContent() {
-        return this.hinContent;
-    }
-    
-    public void SignBoard.setHinContent(String hinContent) {
-        this.hinContent = hinContent;
     }
     
 }

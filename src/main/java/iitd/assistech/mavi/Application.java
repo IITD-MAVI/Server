@@ -1,5 +1,8 @@
 package iitd.assistech.mavi;
 
+import iitd.assistech.mavi.domain.SignBoard;
+import iitd.assistech.mavi.utility.JsonUtil;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -23,14 +26,32 @@ public class Application {
 //		LOG.debug( JsonUtil.toJson(location) );
 		
 		String line="";
-		String[][] file = new String[320][5];
+		String[] file = new String[10];
 		int i=0;
+		SignBoard signBoard = new SignBoard();
 		BufferedReader br = new BufferedReader(new FileReader("final data.csv"));
 		while((line = br.readLine()) != null) {
-			file[i] = line.split(",");
-			System.out.println(file[i].length);
-			i++;
+			file = line.split(",");
+			if(Integer.parseInt(file[0]) != i) {
+				System.out.println(i+JsonUtil.toJson(signBoard));
+				i = Integer.parseInt(file[0]);
+				if(!file[1].isEmpty()) {
+					String[] coordinate = file[1].split(";");
+					signBoard = new SignBoard(Double.parseDouble(coordinate[0]), Double.parseDouble(coordinate[1]));
+				}
+				else {
+					signBoard = new SignBoard();
+				}
+				signBoard.setBilingual(file[3].startsWith("BI"));
+				signBoard.setEngContent(file[2]);
+			}
+			else if(file.length>1) {
+				signBoard.setEngContent(signBoard.getEngContent()+"\n"+file[2]);
+			}
+//			System.out.println(file.length);
 		}
+		System.out.println(i+JsonUtil.toJson(signBoard));
+//		System.out.println(signBoard.getEngContent());
 		br.close();
 		
 //		for(i=0;i<320;i++) {

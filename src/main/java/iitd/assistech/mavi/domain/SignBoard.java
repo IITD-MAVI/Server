@@ -15,20 +15,27 @@ public class SignBoard {
     /**
      */
     private double longitude;
-
+    
     /**
      */
-    private Boolean bilingual;
-
-    /**
-     */
-    private Boolean mounted;
+    private boolean bilingual;
 
     /**
      */
     private String engContent;
-
+    
+    
     /**
      */
-    private String hinContent;
+    public SignBoard() {
+    	
+    }
+    
+    /**
+     */
+    public SignBoard(double latitude, double longitude) {
+    	this.latitude = latitude;
+    	this.longitude = longitude;
+    }
+
 }

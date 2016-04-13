@@ -3,12 +3,11 @@
 
 package iitd.assistech.mavi.domain;
 
-import flexjson.JSONDeserializer;
-import flexjson.JSONSerializer;
-import iitd.assistech.mavi.domain.Location;
-import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+
+import flexjson.JSONDeserializer;
+import flexjson.JSONSerializer;
 
 privileged aspect Location_Roo_Json {
     
