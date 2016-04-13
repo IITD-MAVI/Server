@@ -1,17 +1,15 @@
 package iitd.assistech.mavi;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-import org.apache.log4j.Logger;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Application {
 	
-	private static final Logger LOG = Logger.getLogger(Application.class);
+//	private static final Logger LOG = Logger.getLogger(Application.class);
 
 	public static void main(String[] args) throws IOException {
 
