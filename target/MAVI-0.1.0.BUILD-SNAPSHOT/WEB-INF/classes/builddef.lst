@@ -21,6 +21,8 @@ G:\Eclipse Workspace\MAVI\src\main\java\iitd\assistech\mavi\domain\SignBoard.jav
 G:\Eclipse Workspace\MAVI\src\main\java\iitd\assistech\mavi\domain\SignBoard_Roo_JavaBean.aj
 G:\Eclipse Workspace\MAVI\src\main\java\iitd\assistech\mavi\domain\SignBoard_Roo_Json.aj
 G:\Eclipse Workspace\MAVI\src\main\java\iitd\assistech\mavi\domain\SignBoard_Roo_ToString.aj
+G:\Eclipse Workspace\MAVI\src\main\java\iitd\assistech\mavi\event\CreateEvent.java
+G:\Eclipse Workspace\MAVI\src\main\java\iitd\assistech\mavi\event\Event.java
 G:\Eclipse Workspace\MAVI\src\main\java\iitd\assistech\mavi\processor\MessageProcessor.java
 G:\Eclipse Workspace\MAVI\src\main\java\iitd\assistech\mavi\utility\JsonPath.java
 G:\Eclipse Workspace\MAVI\src\main\java\iitd\assistech\mavi\utility\JsonUtil.java
