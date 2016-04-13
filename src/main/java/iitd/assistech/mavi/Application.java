@@ -1,6 +1,7 @@
 package iitd.assistech.mavi;
 
 import iitd.assistech.mavi.domain.SignBoard;
+import iitd.assistech.mavi.event.CreateEvent;
 import iitd.assistech.mavi.utility.JsonUtil;
 
 import java.io.BufferedReader;
@@ -25,6 +26,7 @@ public class Application {
 //		
 //		LOG.debug( JsonUtil.toJson(location) );
 		
+		Controller controller = new Controller();
 		String line="";
 		String[] file = new String[10];
 		int i=0;
@@ -33,7 +35,10 @@ public class Application {
 		while((line = br.readLine()) != null) {
 			file = line.split(",");
 			if(Integer.parseInt(file[0]) != i) {
-				System.out.println(i+JsonUtil.toJson(signBoard));
+				if(i>0) {
+					controller.post(JsonUtil.toJson(new CreateEvent<SignBoard>(signBoard)));
+				}
+				
 				i = Integer.parseInt(file[0]);
 				if(!file[1].isEmpty()) {
 					String[] coordinate = file[1].split(";");
@@ -42,6 +47,7 @@ public class Application {
 				else {
 					signBoard = new SignBoard();
 				}
+				
 				signBoard.setBilingual(file[3].startsWith("BI"));
 				signBoard.setEngContent(file[2]);
 			}
@@ -50,7 +56,7 @@ public class Application {
 			}
 //			System.out.println(file.length);
 		}
-		System.out.println(i+JsonUtil.toJson(signBoard));
+		controller.post(JsonUtil.toJson(new CreateEvent<SignBoard>(signBoard)));
 //		System.out.println(signBoard.getEngContent());
 		br.close();
 		

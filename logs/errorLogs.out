@@ -54,3 +54,1951 @@
 2016-04-13 20:16:14,952 [main] INFO org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/G:/Eclipse%20Workspace/MAVI/target/classes/META-INF/spring/applicationContext-mongo.xml]
 2016-04-13 20:16:15,398 [main] INFO org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from file [G:\Eclipse Workspace\MAVI\target\classes\META-INF\spring\database.properties]
 2016-04-13 20:16:16,904 [main] INFO org.springframework.context.support.ClassPathXmlApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@6996db8: startup date [Wed Apr 13 20:16:14 IST 2016]; root of context hierarchy
+2016-04-13 20:31:42,542 [main] INFO org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6996db8: startup date [Wed Apr 13 20:31:42 IST 2016]; root of context hierarchy
+2016-04-13 20:31:42,736 [main] INFO org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/G:/Eclipse%20Workspace/MAVI/target/classes/META-INF/spring/applicationContext.xml]
+2016-04-13 20:31:43,490 [main] INFO org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/G:/Eclipse%20Workspace/MAVI/target/classes/META-INF/spring/applicationContext-mongo.xml]
+2016-04-13 20:31:44,036 [main] INFO org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from file [G:\Eclipse Workspace\MAVI\target\classes\META-INF\spring\database.properties]
+2016-04-13 20:31:45,943 [main] INFO org.springframework.context.support.ClassPathXmlApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@6996db8: startup date [Wed Apr 13 20:31:42 IST 2016]; root of context hierarchy
+2016-04-13 20:40:00,200 [main] INFO org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6996db8: startup date [Wed Apr 13 20:40:00 IST 2016]; root of context hierarchy
+2016-04-13 20:40:00,333 [main] INFO org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/G:/Eclipse%20Workspace/MAVI/target/classes/META-INF/spring/applicationContext.xml]
+2016-04-13 20:40:00,950 [main] INFO org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/G:/Eclipse%20Workspace/MAVI/target/classes/META-INF/spring/applicationContext-mongo.xml]
+2016-04-13 20:40:01,309 [main] INFO org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from file [G:\Eclipse Workspace\MAVI\target\classes\META-INF\spring\database.properties]
+2016-04-13 20:40:02,876 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.192,
+    "bilingual" : true,
+    "engContent" : "MATHEMATICS DEPARTMENT\nDOGRA HALL"
+  }
+}
+2016-04-13 20:40:03,226 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.192,
+  "bilingual" : true,
+  "engContent" : "MATHEMATICS DEPARTMENT\nDOGRA HALL"
+}
+2016-04-13 20:40:03,227 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.544,
+    "longitude" : 77.192,
+    "bilingual" : true,
+    "engContent" : "DOGRA HALL\nLIBRARY\nMATHEMATICS DEPARTMENT"
+  }
+}
+2016-04-13 20:40:03,230 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.544,
+  "longitude" : 77.192,
+  "bilingual" : true,
+  "engContent" : "DOGRA HALL\nLIBRARY\nMATHEMATICS DEPARTMENT"
+}
+2016-04-13 20:40:03,231 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.544,
+    "longitude" : 77.192,
+    "bilingual" : true,
+    "engContent" : "I.D.D. CENTRE\nCENTRAL WORKSHOP"
+  }
+}
+2016-04-13 20:40:03,238 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.544,
+  "longitude" : 77.192,
+  "bilingual" : true,
+  "engContent" : "I.D.D. CENTRE\nCENTRAL WORKSHOP"
+}
+2016-04-13 20:40:03,239 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.544,
+    "longitude" : 77.192,
+    "bilingual" : true,
+    "engContent" : "HOSPITAL\nBOYS HOSTEL\nSTUDENTS ACTIVITY CENTRE\nWEST CAMPUS"
+  }
+}
+2016-04-13 20:40:03,243 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.544,
+  "longitude" : 77.192,
+  "bilingual" : true,
+  "engContent" : "HOSPITAL\nBOYS HOSTEL\nSTUDENTS ACTIVITY CENTRE\nWEST CAMPUS"
+}
+2016-04-13 20:40:03,244 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.544,
+    "longitude" : 77.191,
+    "bilingual" : true,
+    "engContent" : ""
+  }
+}
+2016-04-13 20:40:03,251 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.544,
+  "longitude" : 77.191,
+  "bilingual" : true,
+  "engContent" : ""
+}
+2016-04-13 20:40:03,252 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.544,
+    "longitude" : 77.191,
+    "bilingual" : false,
+    "engContent" : "SUB STATION -14\nDATA CENTRE\n2 X 1250 KVA"
+  }
+}
+2016-04-13 20:40:03,255 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.544,
+  "longitude" : 77.191,
+  "bilingual" : false,
+  "engContent" : "SUB STATION -14\nDATA CENTRE\n2 X 1250 KVA"
+}
+2016-04-13 20:40:03,256 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.544,
+    "longitude" : 77.191,
+    "bilingual" : false,
+    "engContent" : "SUB STATION - 6\nLIBRARY BUILDING"
+  }
+}
+2016-04-13 20:40:03,258 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.544,
+  "longitude" : 77.191,
+  "bilingual" : false,
+  "engContent" : "SUB STATION - 6\nLIBRARY BUILDING"
+}
+2016-04-13 20:40:03,259 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.544,
+    "longitude" : 77.191,
+    "bilingual" : false,
+    "engContent" : "LIBRARY SUB STATION"
+  }
+}
+2016-04-13 20:40:03,265 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.544,
+  "longitude" : 77.191,
+  "bilingual" : false,
+  "engContent" : "LIBRARY SUB STATION"
+}
+2016-04-13 20:40:03,266 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.19,
+    "bilingual" : true,
+    "engContent" : "PLAY FILED"
+  }
+}
+2016-04-13 20:40:03,269 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.19,
+  "bilingual" : true,
+  "engContent" : "PLAY FILED"
+}
+2016-04-13 20:40:03,270 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.189,
+    "bilingual" : false,
+    "engContent" : "SUB STATION 2\nBHARATI SCHOOL\n2 X 1000 KVA"
+  }
+}
+2016-04-13 20:40:03,273 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.189,
+  "bilingual" : false,
+  "engContent" : "SUB STATION 2\nBHARATI SCHOOL\n2 X 1000 KVA"
+}
+2016-04-13 20:40:03,273 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.189,
+    "bilingual" : false,
+    "engContent" : "11 KV/0.4 KV\nMAIN  SUBSTATION\nIIT DELHI"
+  }
+}
+2016-04-13 20:40:03,277 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.189,
+  "bilingual" : false,
+  "engContent" : "11 KV/0.4 KV\nMAIN  SUBSTATION\nIIT DELHI"
+}
+2016-04-13 20:40:03,278 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 0.0,
+    "longitude" : 0.0,
+    "bilingual" : true,
+    "engContent" : "DOCTOR'S CAR PARKING "
+  }
+}
+2016-04-13 20:40:03,280 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 0.0,
+  "longitude" : 0.0,
+  "bilingual" : true,
+  "engContent" : "DOCTOR'S CAR PARKING "
+}
+2016-04-13 20:40:03,280 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 0.0,
+    "longitude" : 0.0,
+    "bilingual" : true,
+    "engContent" : "DOCTOR'S CAR PARKING "
+  }
+}
+2016-04-13 20:40:03,283 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 0.0,
+  "longitude" : 0.0,
+  "bilingual" : true,
+  "engContent" : "DOCTOR'S CAR PARKING "
+}
+2016-04-13 20:40:03,284 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 0.0,
+    "longitude" : 0.0,
+    "bilingual" : true,
+    "engContent" : "DOCTOR'S CAR PARKING "
+  }
+}
+2016-04-13 20:40:03,286 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 0.0,
+  "longitude" : 0.0,
+  "bilingual" : true,
+  "engContent" : "DOCTOR'S CAR PARKING "
+}
+2016-04-13 20:40:03,287 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 0.0,
+    "longitude" : 0.0,
+    "bilingual" : true,
+    "engContent" : "TWO WHEELER PARKING FOR HOSPITAL STAFFONL"
+  }
+}
+2016-04-13 20:40:03,289 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 0.0,
+  "longitude" : 0.0,
+  "bilingual" : true,
+  "engContent" : "TWO WHEELER PARKING FOR HOSPITAL STAFFONL"
+}
+2016-04-13 20:40:03,295 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 0.0,
+    "longitude" : 0.0,
+    "bilingual" : true,
+    "engContent" : "SCOOTER PARKING"
+  }
+}
+2016-04-13 20:40:03,298 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 0.0,
+  "longitude" : 0.0,
+  "bilingual" : true,
+  "engContent" : "SCOOTER PARKING"
+}
+2016-04-13 20:40:03,299 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 0.0,
+    "longitude" : 0.0,
+    "bilingual" : true,
+    "engContent" : "SCOOTER PARKING"
+  }
+}
+2016-04-13 20:40:03,301 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 0.0,
+  "longitude" : 0.0,
+  "bilingual" : true,
+  "engContent" : "SCOOTER PARKING"
+}
+2016-04-13 20:40:03,302 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.546,
+    "longitude" : 77.188,
+    "bilingual" : true,
+    "engContent" : "HOSPITAL"
+  }
+}
+2016-04-13 20:40:03,304 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.546,
+  "longitude" : 77.188,
+  "bilingual" : true,
+  "engContent" : "HOSPITAL"
+}
+2016-04-13 20:40:03,305 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.546,
+    "longitude" : 77.188,
+    "bilingual" : false,
+    "engContent" : "HOSPITAL\nPARKING"
+  }
+}
+2016-04-13 20:40:03,308 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.546,
+  "longitude" : 77.188,
+  "bilingual" : false,
+  "engContent" : "HOSPITAL\nPARKING"
+}
+2016-04-13 20:40:03,309 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.546,
+    "longitude" : 77.187,
+    "bilingual" : true,
+    "engContent" : "TRANSPORT SERVICES\nAUTO WORKSHOP\nHORTICULTURE DEPARTMENT\nHOSTEL AREA"
+  }
+}
+2016-04-13 20:40:03,312 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.546,
+  "longitude" : 77.187,
+  "bilingual" : true,
+  "engContent" : "TRANSPORT SERVICES\nAUTO WORKSHOP\nHORTICULTURE DEPARTMENT\nHOSTEL AREA"
+}
+2016-04-13 20:40:03,313 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.546,
+    "longitude" : 77.187,
+    "bilingual" : true,
+    "engContent" : "HOSPITAL STAFF RESIDENCE"
+  }
+}
+2016-04-13 20:40:03,314 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.546,
+  "longitude" : 77.187,
+  "bilingual" : true,
+  "engContent" : "HOSPITAL STAFF RESIDENCE"
+}
+2016-04-13 20:40:03,315 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.546,
+    "longitude" : 77.187,
+    "bilingual" : false,
+    "engContent" : "SUB STATION\nHOSPITAL\n2 X 1000 KVA"
+  }
+}
+2016-04-13 20:40:03,317 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.546,
+  "longitude" : 77.187,
+  "bilingual" : false,
+  "engContent" : "SUB STATION\nHOSPITAL\n2 X 1000 KVA"
+}
+2016-04-13 20:40:03,318 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.546,
+    "longitude" : 77.187,
+    "bilingual" : true,
+    "engContent" : "HOSPITAL SUBSTATION"
+  }
+}
+2016-04-13 20:40:03,320 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.546,
+  "longitude" : 77.187,
+  "bilingual" : true,
+  "engContent" : "HOSPITAL SUBSTATION"
+}
+2016-04-13 20:40:03,320 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.546,
+    "longitude" : 77.187,
+    "bilingual" : true,
+    "engContent" : "SATPURA\nUDAIGIRI\nGIRNAR"
+  }
+}
+2016-04-13 20:40:03,323 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.546,
+  "longitude" : 77.187,
+  "bilingual" : true,
+  "engContent" : "SATPURA\nUDAIGIRI\nGIRNAR"
+}
+2016-04-13 20:40:03,324 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.546,
+    "longitude" : 77.187,
+    "bilingual" : true,
+    "engContent" : "MINI CAMPUS\nNEW VINDHYACHAL APARTMENTS\nSATPURA HOSTEL"
+  }
+}
+2016-04-13 20:40:03,327 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.546,
+  "longitude" : 77.187,
+  "bilingual" : true,
+  "engContent" : "MINI CAMPUS\nNEW VINDHYACHAL APARTMENTS\nSATPURA HOSTEL"
+}
+2016-04-13 20:40:03,327 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.546,
+    "longitude" : 77.187,
+    "bilingual" : true,
+    "engContent" : "VISHWAKARMA BHAWAN\nDEPARTMENT OF MANGEMENT STUDIES IIT  DELHI"
+  }
+}
+2016-04-13 20:40:03,331 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.546,
+  "longitude" : 77.187,
+  "bilingual" : true,
+  "engContent" : "VISHWAKARMA BHAWAN\nDEPARTMENT OF MANGEMENT STUDIES IIT  DELHI"
+}
+2016-04-13 20:40:03,332 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.546,
+    "longitude" : 77.187,
+    "bilingual" : true,
+    "engContent" : "OPEN AIR THEATRE\nNEW CAMPUS"
+  }
+}
+2016-04-13 20:40:03,335 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.546,
+  "longitude" : 77.187,
+  "bilingual" : true,
+  "engContent" : "OPEN AIR THEATRE\nNEW CAMPUS"
+}
+2016-04-13 20:40:03,336 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.547,
+    "longitude" : 77.187,
+    "bilingual" : false,
+    "engContent" : "SUBSTATION -13\nJANSKAR\n1X 1000 KVA"
+  }
+}
+2016-04-13 20:40:03,342 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.547,
+  "longitude" : 77.187,
+  "bilingual" : false,
+  "engContent" : "SUBSTATION -13\nJANSKAR\n1X 1000 KVA"
+}
+2016-04-13 20:40:03,343 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.547,
+    "longitude" : 77.185,
+    "bilingual" : true,
+    "engContent" : "STUDENT ACTIVITY CENTRE\nNALANDA APARTMENTS\nFACULTY GUEST HOUSE\nINDRAPRASTHA APARTMENTS"
+  }
+}
+2016-04-13 20:40:03,346 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.547,
+  "longitude" : 77.185,
+  "bilingual" : true,
+  "engContent" : "STUDENT ACTIVITY CENTRE\nNALANDA APARTMENTS\nFACULTY GUEST HOUSE\nINDRAPRASTHA APARTMENTS"
+}
+2016-04-13 20:40:03,348 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.547,
+    "longitude" : 77.185,
+    "bilingual" : true,
+    "engContent" : "HOSPITAL\nACADEMIC AREA\nEAST CAMPUS\nGIRLS HOSTEL"
+  }
+}
+2016-04-13 20:40:03,351 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.547,
+  "longitude" : 77.185,
+  "bilingual" : true,
+  "engContent" : "HOSPITAL\nACADEMIC AREA\nEAST CAMPUS\nGIRLS HOSTEL"
+}
+2016-04-13 20:40:03,352 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.547,
+    "longitude" : 77.185,
+    "bilingual" : true,
+    "engContent" : "ARAVALI HOSTEL\nKARAKORAM HOSTEL\nNILGIRI HOSTEL\nTAXILA; VAISHALI APARTMENTS"
+  }
+}
+2016-04-13 20:40:03,355 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.547,
+  "longitude" : 77.185,
+  "bilingual" : true,
+  "engContent" : "ARAVALI HOSTEL\nKARAKORAM HOSTEL\nNILGIRI HOSTEL\nTAXILA; VAISHALI APARTMENTS"
+}
+2016-04-13 20:40:03,356 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.547,
+    "longitude" : 77.185,
+    "bilingual" : true,
+    "engContent" : "SHIVALIK HOSTEL\nVINDHYACHAL HOSTEL\nKUMAON HOSTEL\nJWALAMUKHI HOSTEL"
+  }
+}
+2016-04-13 20:40:03,359 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.547,
+  "longitude" : 77.185,
+  "bilingual" : true,
+  "engContent" : "SHIVALIK HOSTEL\nVINDHYACHAL HOSTEL\nKUMAON HOSTEL\nJWALAMUKHI HOSTEL"
+}
+2016-04-13 20:40:03,360 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.546,
+    "longitude" : 77.185,
+    "bilingual" : true,
+    "engContent" : "STUDENT ACTIVITY CENTRE \nSWIMMING POOL \nBADMINTON COURT \nOPEN AIR THEATRE "
+  }
+}
+2016-04-13 20:40:03,362 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.546,
+  "longitude" : 77.185,
+  "bilingual" : true,
+  "engContent" : "STUDENT ACTIVITY CENTRE \nSWIMMING POOL \nBADMINTON COURT \nOPEN AIR THEATRE "
+}
+2016-04-13 20:40:03,363 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.546,
+    "longitude" : 77.185,
+    "bilingual" : true,
+    "engContent" : "FACULTY  GUEST HOUSE "
+  }
+}
+2016-04-13 20:40:03,365 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.546,
+  "longitude" : 77.185,
+  "bilingual" : true,
+  "engContent" : "FACULTY  GUEST HOUSE "
+}
+2016-04-13 20:40:03,366 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.547,
+    "longitude" : 77.184,
+    "bilingual" : true,
+    "engContent" : "VIKRAM SHILA\nTAXILA\nNEW CAMPUS\nVAISHALI APARTMENTS\nNALANDA APARTMENTS\nINDRAPRASTHA APARTMENTS\nVISHWAKARMA BHAWAN\nNILGIRI HOSTEL\nKARAKORAM HOSTEL\nARAVALI HOSTEL\nJWALAMUKHI HOSTEL\nKUMAON HOSTEL"
+  }
+}
+2016-04-13 20:40:03,369 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.547,
+  "longitude" : 77.184,
+  "bilingual" : true,
+  "engContent" : "VIKRAM SHILA\nTAXILA\nNEW CAMPUS\nVAISHALI APARTMENTS\nNALANDA APARTMENTS\nINDRAPRASTHA APARTMENTS\nVISHWAKARMA BHAWAN\nNILGIRI HOSTEL\nKARAKORAM HOSTEL\nARAVALI HOSTEL\nJWALAMUKHI HOSTEL\nKUMAON HOSTEL"
+}
+2016-04-13 20:40:03,370 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.547,
+    "longitude" : 77.184,
+    "bilingual" : false,
+    "engContent" : "OFFICE OF THE CHIEF ENGINEER\nIIT DELHI PROJECT ZONE\nCPDW"
+  }
+}
+2016-04-13 20:40:03,373 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.547,
+  "longitude" : 77.184,
+  "bilingual" : false,
+  "engContent" : "OFFICE OF THE CHIEF ENGINEER\nIIT DELHI PROJECT ZONE\nCPDW"
+}
+2016-04-13 20:40:03,374 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.547,
+    "longitude" : 77.184,
+    "bilingual" : true,
+    "engContent" : "STUDENT ACTIVITY CENTRE\nHOSPITAL\nEAST CAMPUS\nACADEMIC AREA"
+  }
+}
+2016-04-13 20:40:03,376 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.547,
+  "longitude" : 77.184,
+  "bilingual" : true,
+  "engContent" : "STUDENT ACTIVITY CENTRE\nHOSPITAL\nEAST CAMPUS\nACADEMIC AREA"
+}
+2016-04-13 20:40:03,378 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.547,
+    "longitude" : 77.184,
+    "bilingual" : true,
+    "engContent" : "NILGIRI HOSTEL\nWEST CAMPUS\nTAXILA; VAISHALI; VIKRAMSHILA\nINDRAPRASTHA APARTMENTS"
+  }
+}
+2016-04-13 20:40:03,381 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.547,
+  "longitude" : 77.184,
+  "bilingual" : true,
+  "engContent" : "NILGIRI HOSTEL\nWEST CAMPUS\nTAXILA; VAISHALI; VIKRAMSHILA\nINDRAPRASTHA APARTMENTS"
+}
+2016-04-13 20:40:03,382 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.546,
+    "longitude" : 77.183,
+    "bilingual" : true,
+    "engContent" : "FACULTY GUEST HOUSE\nNALANDA APARTMENTS\nSTUDENT ACTIVITY CENTRE"
+  }
+}
+2016-04-13 20:40:03,384 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.546,
+  "longitude" : 77.183,
+  "bilingual" : true,
+  "engContent" : "FACULTY GUEST HOUSE\nNALANDA APARTMENTS\nSTUDENT ACTIVITY CENTRE"
+}
+2016-04-13 20:40:03,385 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.546,
+    "longitude" : 77.183,
+    "bilingual" : true,
+    "engContent" : "SPEED BREAKER AHEAD"
+  }
+}
+2016-04-13 20:40:03,388 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.546,
+  "longitude" : 77.183,
+  "bilingual" : true,
+  "engContent" : "SPEED BREAKER AHEAD"
+}
+2016-04-13 20:40:03,389 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.546,
+    "longitude" : 77.183,
+    "bilingual" : true,
+    "engContent" : "NILGIRI HOSTEL"
+  }
+}
+2016-04-13 20:40:03,392 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.546,
+  "longitude" : 77.183,
+  "bilingual" : true,
+  "engContent" : "NILGIRI HOSTEL"
+}
+2016-04-13 20:40:03,392 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.546,
+    "longitude" : 77.183,
+    "bilingual" : true,
+    "engContent" : "VAISHALI APARTMENTS\nINDRAPRASTHA APARTMENTS"
+  }
+}
+2016-04-13 20:40:03,395 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.546,
+  "longitude" : 77.183,
+  "bilingual" : true,
+  "engContent" : "VAISHALI APARTMENTS\nINDRAPRASTHA APARTMENTS"
+}
+2016-04-13 20:40:03,396 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.546,
+    "longitude" : 77.182,
+    "bilingual" : false,
+    "engContent" : "SUBSTATION -10 \nNILGIRI \n2 X 500 KV "
+  }
+}
+2016-04-13 20:40:03,399 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.546,
+  "longitude" : 77.182,
+  "bilingual" : false,
+  "engContent" : "SUBSTATION -10 \nNILGIRI \n2 X 500 KV "
+}
+2016-04-13 20:40:03,400 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.546,
+    "longitude" : 77.182,
+    "bilingual" : true,
+    "engContent" : "NILGIRI SUBSTATION"
+  }
+}
+2016-04-13 20:40:03,402 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.546,
+  "longitude" : 77.182,
+  "bilingual" : true,
+  "engContent" : "NILGIRI SUBSTATION"
+}
+2016-04-13 20:40:03,404 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.546,
+    "longitude" : 77.181,
+    "bilingual" : true,
+    "engContent" : "VAISHALI APTS \n45 TO 78 "
+  }
+}
+2016-04-13 20:40:03,406 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.546,
+  "longitude" : 77.181,
+  "bilingual" : true,
+  "engContent" : "VAISHALI APTS \n45 TO 78 "
+}
+2016-04-13 20:40:03,407 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.546,
+    "longitude" : 77.181,
+    "bilingual" : true,
+    "engContent" : "INDRAPRASTHA  APARTMENTS \n55 -108       1-54 "
+  }
+}
+2016-04-13 20:40:03,410 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.546,
+  "longitude" : 77.181,
+  "bilingual" : true,
+  "engContent" : "INDRAPRASTHA  APARTMENTS \n55 -108       1-54 "
+}
+2016-04-13 20:40:03,411 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.183,
+    "bilingual" : true,
+    "engContent" : "NEW CAMPUS \n9; 11 to 13; 28\nNEW CAMPUS(WEST CAMPUS)\nTAXILA APARTMENTS"
+  }
+}
+2016-04-13 20:40:03,414 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.183,
+  "bilingual" : true,
+  "engContent" : "NEW CAMPUS \n9; 11 to 13; 28\nNEW CAMPUS(WEST CAMPUS)\nTAXILA APARTMENTS"
+}
+2016-04-13 20:40:03,414 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.183,
+    "bilingual" : true,
+    "engContent" : "NEW CAMPUS \n9; 11 to 14; 16 "
+  }
+}
+2016-04-13 20:40:03,417 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.183,
+  "bilingual" : true,
+  "engContent" : "NEW CAMPUS \n9; 11 to 14; 16 "
+}
+2016-04-13 20:40:03,418 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.183,
+    "bilingual" : true,
+    "engContent" : "NEW CAMPUS \n13; ?? TO 18; 20 "
+  }
+}
+2016-04-13 20:40:03,421 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.183,
+  "bilingual" : true,
+  "engContent" : "NEW CAMPUS \n13; ?? TO 18; 20 "
+}
+2016-04-13 20:40:03,422 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.183,
+    "bilingual" : true,
+    "engContent" : "NEW CAMPUS \n17; 19 to 22; 24 "
+  }
+}
+2016-04-13 20:40:03,425 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.183,
+  "bilingual" : true,
+  "engContent" : "NEW CAMPUS \n17; 19 to 22; 24 "
+}
+2016-04-13 20:40:03,426 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.184,
+    "bilingual" : true,
+    "engContent" : "NEW CAMPUS \n21; 23 TO 26; 28 "
+  }
+}
+2016-04-13 20:40:03,429 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.184,
+  "bilingual" : true,
+  "engContent" : "NEW CAMPUS \n21; 23 TO 26; 28 "
+}
+2016-04-13 20:40:03,430 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.184,
+    "bilingual" : true,
+    "engContent" : "NEW CAMPUS \n25; 27 TO 29; 76 "
+  }
+}
+2016-04-13 20:40:03,432 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.184,
+  "bilingual" : true,
+  "engContent" : "NEW CAMPUS \n25; 27 TO 29; 76 "
+}
+2016-04-13 20:40:03,434 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.184,
+    "bilingual" : true,
+    "engContent" : "SOLAR HOUSE \nA -1; A -6 - B -1; B -6 "
+  }
+}
+2016-04-13 20:40:03,436 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.184,
+  "bilingual" : true,
+  "engContent" : "SOLAR HOUSE \nA -1; A -6 - B -1; B -6 "
+}
+2016-04-13 20:40:03,437 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.544,
+    "longitude" : 77.184,
+    "bilingual" : true,
+    "engContent" : "DEPARTMENT OF MANAGEMENT STUDIES\nTAXILA APARTMENT\nVIKRAMSHILA"
+  }
+}
+2016-04-13 20:40:03,441 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.544,
+  "longitude" : 77.184,
+  "bilingual" : true,
+  "engContent" : "DEPARTMENT OF MANAGEMENT STUDIES\nTAXILA APARTMENT\nVIKRAMSHILA"
+}
+2016-04-13 20:40:03,442 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.544,
+    "longitude" : 77.183,
+    "bilingual" : true,
+    "engContent" : "NEW CAMPUS \n53  TO 76 "
+  }
+}
+2016-04-13 20:40:03,445 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.544,
+  "longitude" : 77.183,
+  "bilingual" : true,
+  "engContent" : "NEW CAMPUS \n53  TO 76 "
+}
+2016-04-13 20:40:03,446 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.544,
+    "longitude" : 77.183,
+    "bilingual" : true,
+    "engContent" : "29  TO 52 \nNEW CAMPUS "
+  }
+}
+2016-04-13 20:40:03,448 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.544,
+  "longitude" : 77.183,
+  "bilingual" : true,
+  "engContent" : "29  TO 52 \nNEW CAMPUS "
+}
+2016-04-13 20:40:03,449 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.182,
+    "bilingual" : true,
+    "engContent" : "NEW CAMPUS \n1 TO 8 "
+  }
+}
+2016-04-13 20:40:03,452 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.182,
+  "bilingual" : true,
+  "engContent" : "NEW CAMPUS \n1 TO 8 "
+}
+2016-04-13 20:40:03,452 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.182,
+    "bilingual" : false,
+    "engContent" : "DEPARTMENT OF MANAGEMENT STUDIES\nTAXILA \nVIKRAMSHILA"
+  }
+}
+2016-04-13 20:40:03,455 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.182,
+  "bilingual" : false,
+  "engContent" : "DEPARTMENT OF MANAGEMENT STUDIES\nTAXILA \nVIKRAMSHILA"
+}
+2016-04-13 20:40:03,455 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.544,
+    "longitude" : 77.182,
+    "bilingual" : true,
+    "engContent" : "VIKRAMSHILA "
+  }
+}
+2016-04-13 20:40:03,458 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.544,
+  "longitude" : 77.182,
+  "bilingual" : true,
+  "engContent" : "VIKRAMSHILA "
+}
+2016-04-13 20:40:03,458 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.195,
+    "bilingual" : true,
+    "engContent" : "INDIAN INSTITUTE OF TECHNOLOGY DELHI \nENGINEER'S COMPLEX  \nNURSERY-1  AND HORTICULTURE UNIT "
+  }
+}
+2016-04-13 20:40:03,461 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.195,
+  "bilingual" : true,
+  "engContent" : "INDIAN INSTITUTE OF TECHNOLOGY DELHI \nENGINEER'S COMPLEX  \nNURSERY-1  AND HORTICULTURE UNIT "
+}
+2016-04-13 20:40:03,462 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.195,
+    "bilingual" : true,
+    "engContent" : "WEST CAMPUS - 1700M\nFACULTY GUEST HOUSE -- 1500M\nBOY'S HOSTELS -- 1500M\nI.I.T. HOSPITAL -- 1000M\nACADEMIC AREA  -- 500M\nADMINISTRATIVE BLOCK -- 500M\nDOGRA HALL -- 500M\nSEMINAR HALL -- 500M\nOLD CAMPUS -- 800M\nGIRLS HOSTEL -- 500M\nDIRECTOR'S  LODGE -- 500M\nMAIN GUEST HOUSE --700M\nKENDRIYA VIDYALAYA -- 800M\nNELLKANTH -- 800M\nPOST OFFICE -- 800M\nSHOPPING CENTRE -- 800M\nJ.E.E OFFICE --500M"
+  }
+}
+2016-04-13 20:40:03,464 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.195,
+  "bilingual" : true,
+  "engContent" : "WEST CAMPUS - 1700M\nFACULTY GUEST HOUSE -- 1500M\nBOY'S HOSTELS -- 1500M\nI.I.T. HOSPITAL -- 1000M\nACADEMIC AREA  -- 500M\nADMINISTRATIVE BLOCK -- 500M\nDOGRA HALL -- 500M\nSEMINAR HALL -- 500M\nOLD CAMPUS -- 800M\nGIRLS HOSTEL -- 500M\nDIRECTOR'S  LODGE -- 500M\nMAIN GUEST HOUSE --700M\nKENDRIYA VIDYALAYA -- 800M\nNELLKANTH -- 800M\nPOST OFFICE -- 800M\nSHOPPING CENTRE -- 800M\nJ.E.E OFFICE --500M"
+}
+2016-04-13 20:40:03,464 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.195,
+    "bilingual" : true,
+    "engContent" : "WEST CAMPUS\nEAST CAMPUS\nJ.E.E & GATE OFFICE"
+  }
+}
+2016-04-13 20:40:03,466 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.195,
+  "bilingual" : true,
+  "engContent" : "WEST CAMPUS\nEAST CAMPUS\nJ.E.E & GATE OFFICE"
+}
+2016-04-13 20:40:03,467 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.194,
+    "bilingual" : true,
+    "engContent" : "EAST CAMPUS \nDIRECTOR'S LODGE \nCENTRAL SCHOOL / POST OFFICE  \nVISITOR PARKING "
+  }
+}
+2016-04-13 20:40:03,468 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.194,
+  "bilingual" : true,
+  "engContent" : "EAST CAMPUS \nDIRECTOR'S LODGE \nCENTRAL SCHOOL / POST OFFICE  \nVISITOR PARKING "
+}
+2016-04-13 20:40:03,469 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.544,
+    "longitude" : 77.193,
+    "bilingual" : true,
+    "engContent" : "ACADEMIC BLOCK \nADMINSTRATIVE BLOCK \nSEMINAR HALL \nEXHIBITION HALL "
+  }
+}
+2016-04-13 20:40:03,472 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.544,
+  "longitude" : 77.193,
+  "bilingual" : true,
+  "engContent" : "ACADEMIC BLOCK \nADMINSTRATIVE BLOCK \nSEMINAR HALL \nEXHIBITION HALL "
+}
+2016-04-13 20:40:03,472 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.544,
+    "longitude" : 77.193,
+    "bilingual" : true,
+    "engContent" : "ADMINSTRATIVE BLOCK \nEMPLOYEES UNION OFFICE "
+  }
+}
+2016-04-13 20:40:03,474 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.544,
+  "longitude" : 77.193,
+  "bilingual" : true,
+  "engContent" : "ADMINSTRATIVE BLOCK \nEMPLOYEES UNION OFFICE "
+}
+2016-04-13 20:40:03,475 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.195,
+    "bilingual" : true,
+    "engContent" : "EAST CAMPUS / NEEL KANTH\nDIRECTOR'S LODGE / GIRL'S HOSTEL\nKENDRIYA VIDYALAY / POST OFFICE"
+  }
+}
+2016-04-13 20:40:03,477 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.195,
+  "bilingual" : true,
+  "engContent" : "EAST CAMPUS / NEEL KANTH\nDIRECTOR'S LODGE / GIRL'S HOSTEL\nKENDRIYA VIDYALAY / POST OFFICE"
+}
+2016-04-13 20:40:03,478 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.544,
+    "longitude" : 77.197,
+    "bilingual" : true,
+    "engContent" : "CENTRAL AVENUE\n1 TO 4"
+  }
+}
+2016-04-13 20:40:03,480 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.544,
+  "longitude" : 77.197,
+  "bilingual" : true,
+  "engContent" : "CENTRAL AVENUE\n1 TO 4"
+}
+2016-04-13 20:40:03,480 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.544,
+    "longitude" : 77.197,
+    "bilingual" : true,
+    "engContent" : ""
+  }
+}
+2016-04-13 20:40:03,483 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.544,
+  "longitude" : 77.197,
+  "bilingual" : true,
+  "engContent" : ""
+}
+2016-04-13 20:40:03,484 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.544,
+    "longitude" : 77.197,
+    "bilingual" : true,
+    "engContent" : "GIRLS' HOSTEL"
+  }
+}
+2016-04-13 20:40:03,486 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.544,
+  "longitude" : 77.197,
+  "bilingual" : true,
+  "engContent" : "GIRLS' HOSTEL"
+}
+2016-04-13 20:40:03,490 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.544,
+    "longitude" : 74.197,
+    "bilingual" : false,
+    "engContent" : "KAILASH HOSTEL"
+  }
+}
+2016-04-13 20:40:03,492 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.544,
+  "longitude" : 74.197,
+  "bilingual" : false,
+  "engContent" : "KAILASH HOSTEL"
+}
+2016-04-13 20:40:03,493 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.544,
+    "longitude" : 77.197,
+    "bilingual" : true,
+    "engContent" : "HIMADRI HOSTEL"
+  }
+}
+2016-04-13 20:40:03,495 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.544,
+  "longitude" : 77.197,
+  "bilingual" : true,
+  "engContent" : "HIMADRI HOSTEL"
+}
+2016-04-13 20:40:03,496 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.198,
+    "bilingual" : true,
+    "engContent" : "NORTH AVENUE\n 1 TO 8"
+  }
+}
+2016-04-13 20:40:03,498 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.198,
+  "bilingual" : true,
+  "engContent" : "NORTH AVENUE\n 1 TO 8"
+}
+2016-04-13 20:40:03,499 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.198,
+    "bilingual" : true,
+    "engContent" : "NORTH AVENUE\n9 TO 16"
+  }
+}
+2016-04-13 20:40:03,501 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.198,
+  "bilingual" : true,
+  "engContent" : "NORTH AVENUE\n9 TO 16"
+}
+2016-04-13 20:40:03,502 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.198,
+    "bilingual" : true,
+    "engContent" : "NORTH AVENUE\n17 TO 24"
+  }
+}
+2016-04-13 20:40:03,504 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.198,
+  "bilingual" : true,
+  "engContent" : "NORTH AVENUE\n17 TO 24"
+}
+2016-04-13 20:40:03,505 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.198,
+    "bilingual" : true,
+    "engContent" : "MAIN GUEST HOUSE"
+  }
+}
+2016-04-13 20:40:03,507 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.198,
+  "bilingual" : true,
+  "engContent" : "MAIN GUEST HOUSE"
+}
+2016-04-13 20:40:03,508 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.199,
+    "bilingual" : true,
+    "engContent" : "STREET -C\n1 TO 16"
+  }
+}
+2016-04-13 20:40:03,510 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.199,
+  "bilingual" : true,
+  "engContent" : "STREET -C\n1 TO 16"
+}
+2016-04-13 20:40:03,511 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.198,
+    "bilingual" : true,
+    "engContent" : "NORTH AVENUE\n17 TO 24"
+  }
+}
+2016-04-13 20:40:03,513 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.198,
+  "bilingual" : true,
+  "engContent" : "NORTH AVENUE\n17 TO 24"
+}
+2016-04-13 20:40:03,514 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.545,
+    "longitude" : 77.199,
+    "bilingual" : true,
+    "engContent" : "NORTH AVENUE\n25 TO 40"
+  }
+}
+2016-04-13 20:40:03,516 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.545,
+  "longitude" : 77.199,
+  "bilingual" : true,
+  "engContent" : "NORTH AVENUE\n25 TO 40"
+}
+2016-04-13 20:40:03,516 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.544,
+    "longitude" : 77.2,
+    "bilingual" : true,
+    "engContent" : "STREET - F\n1 TO 4"
+  }
+}
+2016-04-13 20:40:03,518 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.544,
+  "longitude" : 77.2,
+  "bilingual" : true,
+  "engContent" : "STREET - F\n1 TO 4"
+}
+2016-04-13 20:40:03,519 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.544,
+    "longitude" : 77.2,
+    "bilingual" : true,
+    "engContent" : "STREET - G\n1 TO 34"
+  }
+}
+2016-04-13 20:40:03,521 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.544,
+  "longitude" : 77.2,
+  "bilingual" : true,
+  "engContent" : "STREET - G\n1 TO 34"
+}
+2016-04-13 20:40:03,522 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.544,
+    "longitude" : 77.2,
+    "bilingual" : true,
+    "engContent" : "EAST AVENUE\nCENTRAL SCHOOL\nNEELKANTH / COMMUNITY HALL\nSHOPPING CENTRE/ POST OFFICE"
+  }
+}
+2016-04-13 20:40:03,524 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.544,
+  "longitude" : 77.2,
+  "bilingual" : true,
+  "engContent" : "EAST AVENUE\nCENTRAL SCHOOL\nNEELKANTH / COMMUNITY HALL\nSHOPPING CENTRE/ POST OFFICE"
+}
+2016-04-13 20:40:03,524 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.543,
+    "longitude" : 77.2,
+    "bilingual" : true,
+    "engContent" : "STREET - G\n1 TO 16"
+  }
+}
+2016-04-13 20:40:03,526 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.543,
+  "longitude" : 77.2,
+  "bilingual" : true,
+  "engContent" : "STREET - G\n1 TO 16"
+}
+2016-04-13 20:40:03,526 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.544,
+    "longitude" : 77.199,
+    "bilingual" : true,
+    "engContent" : "STREET -H\n1 TO 2"
+  }
+}
+2016-04-13 20:40:03,528 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.544,
+  "longitude" : 77.199,
+  "bilingual" : true,
+  "engContent" : "STREET -H\n1 TO 2"
+}
+2016-04-13 20:40:03,528 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.543,
+    "longitude" : 77.199,
+    "bilingual" : true,
+    "engContent" : "STREET - J;K;L"
+  }
+}
+2016-04-13 20:40:03,530 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.543,
+  "longitude" : 77.199,
+  "bilingual" : true,
+  "engContent" : "STREET - J;K;L"
+}
+2016-04-13 20:40:03,530 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.543,
+    "longitude" : 77.199,
+    "bilingual" : true,
+    "engContent" : "STREET - J\n1 TO 8"
+  }
+}
+2016-04-13 20:40:03,532 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.543,
+  "longitude" : 77.199,
+  "bilingual" : true,
+  "engContent" : "STREET - J\n1 TO 8"
+}
+2016-04-13 20:40:03,532 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.543,
+    "longitude" : 77.2,
+    "bilingual" : true,
+    "engContent" : "STREET - K\n1 TO 2"
+  }
+}
+2016-04-13 20:40:03,534 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.543,
+  "longitude" : 77.2,
+  "bilingual" : true,
+  "engContent" : "STREET - K\n1 TO 2"
+}
+2016-04-13 20:40:03,534 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.542,
+    "longitude" : 77.199,
+    "bilingual" : true,
+    "engContent" : "CENTRAL SCHOOL"
+  }
+}
+2016-04-13 20:40:03,536 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.542,
+  "longitude" : 77.199,
+  "bilingual" : true,
+  "engContent" : "CENTRAL SCHOOL"
+}
+2016-04-13 20:40:03,537 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.542,
+    "longitude" : 77.199,
+    "bilingual" : true,
+    "engContent" : "EAST AVENUE\n1 TO 16"
+  }
+}
+2016-04-13 20:40:03,538 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.542,
+  "longitude" : 77.199,
+  "bilingual" : true,
+  "engContent" : "EAST AVENUE\n1 TO 16"
+}
+2016-04-13 20:40:03,539 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.542,
+    "longitude" : 77.199,
+    "bilingual" : true,
+    "engContent" : "STREET - L\n1 TO 72"
+  }
+}
+2016-04-13 20:40:03,540 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.542,
+  "longitude" : 77.199,
+  "bilingual" : true,
+  "engContent" : "STREET - L\n1 TO 72"
+}
+2016-04-13 20:40:03,541 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.542,
+    "longitude" : 77.199,
+    "bilingual" : true,
+    "engContent" : "STREET -M 4\n1 TO 4"
+  }
+}
+2016-04-13 20:40:03,543 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.542,
+  "longitude" : 77.199,
+  "bilingual" : true,
+  "engContent" : "STREET -M 4\n1 TO 4"
+}
+2016-04-13 20:40:03,544 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.541,
+    "longitude" : 77.198,
+    "bilingual" : true,
+    "engContent" : "STREET - N\n49 TO 228"
+  }
+}
+2016-04-13 20:40:03,546 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.541,
+  "longitude" : 77.198,
+  "bilingual" : true,
+  "engContent" : "STREET - N\n49 TO 228"
+}
+2016-04-13 20:40:03,546 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.541,
+    "longitude" : 77.198,
+    "bilingual" : true,
+    "engContent" : "STREET - N\n49 TO 228"
+  }
+}
+2016-04-13 20:40:03,549 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.541,
+  "longitude" : 77.198,
+  "bilingual" : true,
+  "engContent" : "STREET - N\n49 TO 228"
+}
+2016-04-13 20:40:03,550 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.54,
+    "longitude" : 77.198,
+    "bilingual" : true,
+    "engContent" : " SOUTH AVENUE\n49 TO 228"
+  }
+}
+2016-04-13 20:40:03,552 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.54,
+  "longitude" : 77.198,
+  "bilingual" : true,
+  "engContent" : " SOUTH AVENUE\n49 TO 228"
+}
+2016-04-13 20:40:03,552 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.54,
+    "longitude" : 77.198,
+    "bilingual" : true,
+    "engContent" : "STREET - M;N;O\nCENTRAL SCHOOL\nNEELKANTH/ COMMUNITY HALL\nSHOPPING CENTRE/ POST OFFICE"
+  }
+}
+2016-04-13 20:40:03,553 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.54,
+  "longitude" : 77.198,
+  "bilingual" : true,
+  "engContent" : "STREET - M;N;O\nCENTRAL SCHOOL\nNEELKANTH/ COMMUNITY HALL\nSHOPPING CENTRE/ POST OFFICE"
+}
+2016-04-13 20:40:03,554 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.542,
+    "longitude" : 77.195,
+    "bilingual" : true,
+    "engContent" : " SOUTH AVENUE\n49 TO 228"
+  }
+}
+2016-04-13 20:40:03,556 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.542,
+  "longitude" : 77.195,
+  "bilingual" : true,
+  "engContent" : " SOUTH AVENUE\n49 TO 228"
+}
+2016-04-13 20:40:03,557 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.542,
+    "longitude" : 77.195,
+    "bilingual" : true,
+    "engContent" : "STREET - N\n49 TO 228"
+  }
+}
+2016-04-13 20:40:03,559 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.542,
+  "longitude" : 77.195,
+  "bilingual" : true,
+  "engContent" : "STREET - N\n49 TO 228"
+}
+2016-04-13 20:40:03,559 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.542,
+    "longitude" : 77.195,
+    "bilingual" : true,
+    "engContent" : "STREET - N\n1 TO 72"
+  }
+}
+2016-04-13 20:40:03,562 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.542,
+  "longitude" : 77.195,
+  "bilingual" : true,
+  "engContent" : "STREET - N\n1 TO 72"
+}
+2016-04-13 20:40:03,563 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.542,
+    "longitude" : 77.195,
+    "bilingual" : true,
+    "engContent" : "WEST AVENUE \n32 TO 37"
+  }
+}
+2016-04-13 20:40:03,564 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.542,
+  "longitude" : 77.195,
+  "bilingual" : true,
+  "engContent" : "WEST AVENUE \n32 TO 37"
+}
+2016-04-13 20:40:03,564 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.542,
+    "longitude" : 77.195,
+    "bilingual" : true,
+    "engContent" : "WEST AVENUE \n1 TO 31"
+  }
+}
+2016-04-13 20:40:03,566 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.542,
+  "longitude" : 77.195,
+  "bilingual" : true,
+  "engContent" : "WEST AVENUE \n1 TO 31"
+}
+2016-04-13 20:40:03,568 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.542,
+    "longitude" : 77.196,
+    "bilingual" : true,
+    "engContent" : "WEST AVENUE \n9 TO 13"
+  }
+}
+2016-04-13 20:40:03,571 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.542,
+  "longitude" : 77.196,
+  "bilingual" : true,
+  "engContent" : "WEST AVENUE \n9 TO 13"
+}
+2016-04-13 20:40:03,572 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.542,
+    "longitude" : 77.196,
+    "bilingual" : true,
+    "engContent" : "WEST AVENUE \n18 TO 29"
+  }
+}
+2016-04-13 20:40:03,574 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.542,
+  "longitude" : 77.196,
+  "bilingual" : true,
+  "engContent" : "WEST AVENUE \n18 TO 29"
+}
+2016-04-13 20:40:03,575 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.542,
+    "longitude" : 77.196,
+    "bilingual" : true,
+    "engContent" : "STREET - M-1; M-4\nSTREET - O"
+  }
+}
+2016-04-13 20:40:03,578 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.542,
+  "longitude" : 77.196,
+  "bilingual" : true,
+  "engContent" : "STREET - M-1; M-4\nSTREET - O"
+}
+2016-04-13 20:40:03,578 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.543,
+    "longitude" : 77.196,
+    "bilingual" : true,
+    "engContent" : "WEST AVENUE \n14 TO 35"
+  }
+}
+2016-04-13 20:40:03,581 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.543,
+  "longitude" : 77.196,
+  "bilingual" : true,
+  "engContent" : "WEST AVENUE \n14 TO 35"
+}
+2016-04-13 20:40:03,582 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.543,
+    "longitude" : 77.196,
+    "bilingual" : true,
+    "engContent" : "WEST AVENUE \n14 TO 37"
+  }
+}
+2016-04-13 20:40:03,584 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.543,
+  "longitude" : 77.196,
+  "bilingual" : true,
+  "engContent" : "WEST AVENUE \n14 TO 37"
+}
+2016-04-13 20:40:03,584 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.543,
+    "longitude" : 77.197,
+    "bilingual" : false,
+    "engContent" : ""
+  }
+}
+2016-04-13 20:40:03,586 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.543,
+  "longitude" : 77.197,
+  "bilingual" : false,
+  "engContent" : ""
+}
+2016-04-13 20:40:03,586 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.543,
+    "longitude" : 77.197,
+    "bilingual" : true,
+    "engContent" : "WEST AVENUE \n9 TO 13"
+  }
+}
+2016-04-13 20:40:03,588 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.543,
+  "longitude" : 77.197,
+  "bilingual" : true,
+  "engContent" : "WEST AVENUE \n9 TO 13"
+}
+2016-04-13 20:40:03,589 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.542,
+    "longitude" : 77.197,
+    "bilingual" : true,
+    "engContent" : "STREET- M1\n1 TO 8"
+  }
+}
+2016-04-13 20:40:03,590 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.542,
+  "longitude" : 77.197,
+  "bilingual" : true,
+  "engContent" : "STREET- M1\n1 TO 8"
+}
+2016-04-13 20:40:03,591 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.542,
+    "longitude" : 77.197,
+    "bilingual" : true,
+    "engContent" : "STREET C\n1 TO 10"
+  }
+}
+2016-04-13 20:40:03,592 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.542,
+  "longitude" : 77.197,
+  "bilingual" : true,
+  "engContent" : "STREET C\n1 TO 10"
+}
+2016-04-13 20:40:03,592 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.542,
+    "longitude" : 77.198,
+    "bilingual" : true,
+    "engContent" : "STREET- M2\n1 TO 8"
+  }
+}
+2016-04-13 20:40:03,594 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.542,
+  "longitude" : 77.198,
+  "bilingual" : true,
+  "engContent" : "STREET- M2\n1 TO 8"
+}
+2016-04-13 20:40:03,595 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.542,
+    "longitude" : 77.198,
+    "bilingual" : true,
+    "engContent" : "STREET- M3\n1 TO 8"
+  }
+}
+2016-04-13 20:40:03,596 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.542,
+  "longitude" : 77.198,
+  "bilingual" : true,
+  "engContent" : "STREET- M3\n1 TO 8"
+}
+2016-04-13 20:40:03,597 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.542,
+    "longitude" : 77.197,
+    "bilingual" : true,
+    "engContent" : "STREET - O\n1 TO 3"
+  }
+}
+2016-04-13 20:40:03,598 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.542,
+  "longitude" : 77.197,
+  "bilingual" : true,
+  "engContent" : "STREET - O\n1 TO 3"
+}
+2016-04-13 20:40:03,599 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.542,
+    "longitude" : 77.197,
+    "bilingual" : true,
+    "engContent" : "STREET - M 2\n1 TO 8"
+  }
+}
+2016-04-13 20:40:03,600 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.542,
+  "longitude" : 77.197,
+  "bilingual" : true,
+  "engContent" : "STREET - M 2\n1 TO 8"
+}
+2016-04-13 20:40:03,601 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.541,
+    "longitude" : 77.197,
+    "bilingual" : true,
+    "engContent" : "STREET - O\n1 TO 32"
+  }
+}
+2016-04-13 20:40:03,602 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.541,
+  "longitude" : 77.197,
+  "bilingual" : true,
+  "engContent" : "STREET - O\n1 TO 32"
+}
+2016-04-13 20:40:03,602 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - JSON message received by Processor: {
+  "collection" : "SignBoard",
+  "operation" : "CREATE",
+  "data" : {
+    "latitude" : 28.541,
+    "longitude" : 77.197,
+    "bilingual" : true,
+    "engContent" : "STREET - N 2\n1 TO 72"
+  }
+}
+2016-04-13 20:40:03,604 [main] INFO iitd.assistech.mavi.processor.MessageProcessor - New document saved in database:
+{
+  "latitude" : 28.541,
+  "longitude" : 77.197,
+  "bilingual" : true,
+  "engContent" : "STREET - N 2\n1 TO 72"
+}
+2016-04-13 20:40:03,604 [main] INFO org.springframework.context.support.ClassPathXmlApplicationContext - Closing org.springframework.context.support.ClassPathXmlApplicationContext@6996db8: startup date [Wed Apr 13 20:40:00 IST 2016]; root of context hierarchy
