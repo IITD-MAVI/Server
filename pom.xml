@@ -211,12 +211,6 @@
 		
 		<!-- Test Artifacts -->
 		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-test</artifactId>
-			<version>${spring.version}</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.11</version>
@@ -230,8 +224,10 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
-				<version>2.2</version>
-				<!-- <configuration> <webXml>target/web.xml</webXml> </configuration> -->
+				<version>2.6</version>
+			 	<configuration> 
+					<failOnMissingWebXml>false</failOnMissingWebXml> 
+				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
